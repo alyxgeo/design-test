@@ -82,7 +82,7 @@ const ProductSlider = () => {
         slidesToShow: 4,
         slidesToScroll: 4,
         nextArrow: <SampleNextArrow />,
-       
+
     };
     return (
         <div className="px-10">
@@ -90,7 +90,7 @@ const ProductSlider = () => {
                 {products.map((product) => (
                     <div key={product.id} className="mt-5 adjuster"  >
                         <div className="bg-[#E6E6E6]">
-                            <img  src={product.image} alt={product.name} className="w-full" />
+                            <img src={product.image} alt={product.name} className="w-full" />
                             <div className="mt-2 px-2">
                                 <p className="font-medium text-lg text-[#12651A]">{product.catagory}</p>
                                 <p className="text-lg ">{product.name}</p>
