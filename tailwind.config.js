@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      abhaya: ['Abhaya Libre', 'serif'],
+      inter: ['Inter', 'sans-serif'],
+      sree: ['Sree Krushnadevaraya', 'serif']
+    }
   },
   plugins: [],
 }
