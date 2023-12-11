@@ -2,9 +2,9 @@ const TopBrand = () => {
     return (
         <div>
             <div className='mt-5 flex items-center justify-between
-             bg-[#F3F3F3] px-16 py-6' >
-                <div className="font-sree font-normal text-3xl">Top Brands</div>
-                <div className='border-b border-black font-sree font-normal text-xl'>View All brands</div>
+             bg-[#F3F3F3] lg:px-16 lg:py-6 p-4' >
+                <div className="font-sree font-normal lg:text-3xl text-lg">Top Brands</div>
+                <div className='border-b border-black font-sree font-normal lg:text-xl text-sm'>View All brands</div>
             </div>
 
             <div className='bg-[#CDA792] grid grid-cols-12 pb-10'>
