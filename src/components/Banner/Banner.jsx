@@ -3,7 +3,6 @@ const Banner = () => {
         <div className="bg-[url('/images/banner-bg.png')] w-full bg-no-repeat bg-cover h-screen object-center
         lg:flex lg:justify-center "
         >
- 
             <div className="lg:flex lg:flex-col lg:gap-28  lg:items-center px-5 lg:px-0 ">
 
                 <div className="lg:mt-12">
@@ -11,15 +10,12 @@ const Banner = () => {
                     <div className="text-white fonr-normal lg:text-6xl font-sree text-3xl">our New Products for You</div>
                 </div>
 
-
                 <div className=" mt-10 lg:mt-0 flex justify-center items-center py-3 px-2 gap-2 bg-[#73A336] w-fit text-base rounded-md">
                     <div className="text-white font-sree text-xl">Shop Now</div>
                     <div>
                         <img src="/icons/arrow-btn-icon.png" alt="arrow-btn" />
                     </div>
                 </div>
-
-
 
                 <div className="lg:flex lg:gap-5 mt-5 lg:mt-0 ">
                     <div className="lg:flex flex-col gap-4  items-center">
