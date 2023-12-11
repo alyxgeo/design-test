@@ -17,7 +17,6 @@ const MobNav = ({ isOpen }) => {
                 <div onClick={() => isOpen(false)}>Contact</div>
                 <div onClick={() => isOpen(false)}>Sale</div>
             </div>
-
         </div>
     )
 }
