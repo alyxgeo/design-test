@@ -3,7 +3,7 @@ const Navbar = () => {
 
   return (
 
-    <div className='bg-[#8EB226] flex justify-between px-5 py-4 '>
+    <div className='bg-[#8EB226] flex justify-between px-5 py-4  '>
 
       <div className="flex gap-2  items-center">
         <img src='/images/logo.png' alt='logo' className='w-7 h-7' />
@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
 
 
-      <div className="flex items-center font-medium gap-5 text-white font-inter text-base">
+      <div className="lg:flex items-center font-medium gap-5 text-white font-inter text-base hidden ">
         <div>Shop</div>
         <div>Product</div>
         <div>Contact</div>
@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
 
 
-      <div className="px-5 flex gap-3 items-center  bg-neutral-100 rounded-md ">
+      <div className="px-5 lg:flex gap-3 items-center  bg-neutral-100 rounded-md hidden ">
         <img src="public/icons/search-icon.png" alt="search" />
         <input placeholder="Search for products" className="text-sm bg-transparent py-2" />
       </div>
