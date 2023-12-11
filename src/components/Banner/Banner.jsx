@@ -1,10 +1,11 @@
 const Banner = () => {
     return (
         <div className="bg-[url('/images/banner-bg.png')] bg-no-repeat bg-cover h-screen
-        flex justify-center "
+        lg:flex lg:justify-center "
         >
+ 
+            <div className="lg:flex lg:flex-col lg:gap-28  lg:items-center px-5 lg:px-0 ">
 
-            <div className="lg:flex flex-col gap-28  items-center px-5 lg:px-0">
                 <div className="lg:mt-12">
                     <div className="text-[#D7FFA5] font-normal lg:text-6xl font-sree text-3xl">Discover </div>
                     <div className="text-white fonr-normal lg:text-6xl font-sree text-3xl">our New Products for You</div>
@@ -21,14 +22,14 @@ const Banner = () => {
 
 
                 <div className="lg:flex lg:gap-5 mt-5 lg:mt-0 ">
-                    <div className="flex flex-col gap-4  items-center">
-                        <p className="border-b text-white font-sree text-sm">The Ordinary</p>
+                    <div className="lg:flex flex-col gap-4  items-center">
+                        <p className="lg:border-b text-white font-sree text-sm">The Ordinary</p>
                         <img src="public/images/banner-ord.png" alt="cart-img" className="w-fit" />
                     </div>
 
 
-                    <div className="flex flex-col gap-4 items-center lg:mt-20">
-                        <p className="border-b text-white font-sree text-sm">The Body Shop</p>
+                    <div className="lg:flex flex-col gap-4 items-center lg:mt-20">
+                        <p className="lg:border-b text-white font-sree text-sm">The Body Shop</p>
                         <img src="public/images/banner-shop.png" alt="cart-img" className="w-fit" />
                     </div>
                 </div>
