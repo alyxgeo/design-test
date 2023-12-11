@@ -109,7 +109,6 @@ const ProductSlider = () => {
             </div>
 
 
-
             <div className="lg:hidden flex flex-col items-center">
                 {products.slice(0, 4).map((product) => (
                     <div key={product.id} className="mt-5 adjuster"  >
